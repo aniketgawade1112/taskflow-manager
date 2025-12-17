@@ -7,6 +7,8 @@ export interface Todo {
   dueDate?: Date;
   category: string;
   createdAt: Date;
+  estimatedHours?: number;
+  aiEnhanced?: boolean;
 }
 
 export interface Expense {
@@ -18,6 +20,8 @@ export interface Expense {
   type: "income" | "expense";
   description?: string;
   tags: string[];
+  aiSuggestedCategory?: string;
+  aiConfidence?: number;
 }
 
 export interface Category {
@@ -34,6 +38,7 @@ export interface DashboardStats {
   totalExpenses: number;
   totalIncome: number;
   balance: number;
+  productivityScore: number;
 }
 
 export type FilterType = "all" | "active" | "completed";

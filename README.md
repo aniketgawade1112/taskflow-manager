@@ -1,46 +1,127 @@
-# Getting Started with Create React App
+# **TaskFlow Manager** 🤖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**An intelligent productivity suite combining task management, expense tracking, and AI-powered insights in one beautiful interface.**
 
-## Available Scripts
+## ✨ **Features**
 
-In the project directory, you can run:
+### 🤖 **AI-Powered Intelligence**
 
-### `npm start`
+- **Smart Task Creation**: Convert natural language into structured tasks
+- **Auto-Categorization**: AI suggests expense categories in real-time
+- **Priority Suggestions**: Get smart priority and due date recommendations
+- **Privacy-First**: Sensitive data redaction before AI processing
+- **Rule-based Fallbacks**: Works offline without external APIs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🎨 **Beautiful Dark/Light Theme**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **System Detection**: Automatically matches OS theme
+- **Smooth Transitions**: Fluid theme switching animations
+- **Accessibility**: WCAG-compliant contrast ratios
+- **Persistent**: Remembers your theme preference
 
-### `npm test`
+### 📊 **Productivity Dashboard**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Real-time Analytics**: Track tasks, expenses, and productivity
+- **AI Insights**: Personalized suggestions based on your data
+- **Progress Tracking**: Visual completion metrics
+- **Financial Overview**: Income vs expense breakdown
 
-### `npm run build`
+### ⌨️ **Power User Features**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Keyboard Shortcuts**:
+  - `Ctrl/Cmd + K` - Quick add task
+  - `Ctrl/Cmd + Shift + D` - Toggle dark mode
+  - `Ctrl/Cmd + /` - Focus search
+  - `Ctrl/Cmd + E` - Export data
+  - `Escape` - Close modals
+- **CSV Export**: Export tasks and expenses for reporting
+- **Skeleton Loaders**: Smooth loading experience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📱 **Responsive Design**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Mobile-First**: Fully responsive on all devices
+- **Touch-Friendly**: Optimized for mobile interactions
+- **PWA Ready**: Install as standalone app
 
-### `npm run eject`
+## 🚀 **Quick Start**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### **Prerequisites**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js 16+
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### **Installation**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone repo-url
+cd taskflow-manager
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Start development server
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Build for production
+npm run build
+```
+
+## 🛠️ **Tech Stack**
+
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + CSS Variables
+- **State Management**: React Context + Local Storage
+- **Icons**: Lucide React
+- **Date Handling**: date-fns
+- **Build Tool**: Create React App
+
+## 📁 **Project Structure**
+
+```
+src/
+├── components/
+│   ├── common/          # Reusable UI components
+│   ├── todo/           # Todo management components
+│   ├── expenses/       # Expense tracking components
+│   ├── dashboard/      # Dashboard and analytics
+│   └── layout/         # Layout components
+├── contexts/           # React Context providers
+├── hooks/             # Custom React hooks
+├── utils/             # Utility functions
+├── types/             # TypeScript definitions
+└── styles/            # Global styles
+```
+
+## 🤝 **Contributing**
+
+We welcome contributions! Here's how:
+
+1. **Fork** the repository
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Commit your changes**: `git commit -m 'Add amazing feature'`
+4. **Push to branch**: `git push origin feature/amazing-feature`
+5. **Open a Pull Request**
+
+### **Development Guidelines**
+
+- Follow TypeScript best practices
+- Use Tailwind CSS for styling
+- Maintain accessibility standards (WCAG 2.1)
+- Write meaningful commit messages
+- Add tests for new features
+
+## 🙏 **Acknowledgments**
+
+- [Lucide Icons](https://lucide.dev/) for beautiful icons
+- [Tailwind CSS](https://tailwindcss.com/) for utility-first styling
+- [Create React App](https://create-react-app.dev/) for project scaffolding
+- [date-fns](https://date-fns.org/) for date manipulation
+
+---
+
+**Built with ❤️ by Aniket**
+
+_"Organize your day, track your expenses, achieve your goals with AI assistance"_
+
+---
